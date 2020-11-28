@@ -11,8 +11,10 @@ var dict = {
   "white": 9
 }
 
-export const colorCode = (color) => {
-  return dict[color];
-};
+// export const colorCode = (color) => {
+//   return dict[color];
+// };
+
+export const colorCode = (color) => dict[color]
 
 export const COLORS = Object.keys(dict);
